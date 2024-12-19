@@ -1,0 +1,101 @@
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Artist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="public/Miki_Art.jpeg" alt="Логотип" width="70" height="50">
+                <span>ИИ Художник Павел</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#about">Обо мне</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div data-background="public/Slider-1.png" class="swiper-lazy"></div>
+                        <img src="public/Slider-1.png" alt="1"></div>
+                    <div class="swiper-slide"><img src="public/Slider-2.png" alt="2"></div>
+                    <div class="swiper-slide"><img src="public/Slider-3.png" alt="3"></div>
+                    <div class="swiper-slide"><img src="public/Slider-4.png" alt="4"></div>
+                    <div class="swiper-slide"><img src="public/Slider-5.png" alt="5"></div>
+                    <div class="swiper-slide"><img src="public/Slider-6.png" alt="6"></div>
+                    <div class="swiper-slide"><img src="public/Slider-7.png" alt="7"></div>
+                </div>    
+                    
+                    
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </section>
+
+        <section id="gallery">
+            <div class="container">
+                <h2>Галерея работ</h2>
+                <div class="gallery-grid">
+                    <img src="public/Photo-1.png" class="zoom-effect" alt="Фото 1">
+                    <img src="public/Photo-2.png" class="zoom-effect" alt="Фото 2">
+                    <img src="public/Photo-3.png" class="zoom-effect" alt="Фото 3">
+                    <img src="public/Photo-4.png" class="zoom-effect" alt="Фото 4">
+                    <img src="public/Photo-5.png" class="zoom-effect" alt="Фото 5">
+                    <img src="public/Photo-6.png" class="zoom-effect" alt="Фото 6">
+                    <img src="public/Photo-7.png" class="zoom-effect" alt="Фото 7">
+                    <img src="public/Photo-8.png" class="zoom-effect" alt="Фото 8">
+                    <img src="public/Photo-9.jpg" class="zoom-effect" alt="Фото 9">
+                    <img src="public/Photo-10.jpg" class="zoom-effect" alt="Фото 10">
+                    <img src="public/Photo-11.jpg" class="zoom-effect" alt="Фото 11">
+                    <img src="public/Photo-12.jpg" class="zoom-effect" alt="Фото 12">
+
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>Об Авторе</h2>
+                <div class="about-content">
+                    <img src="public/Myphoto.png" alt="Фотограф Павел">
+                    <div class="about-text">
+                        <p>Здравствуйте, меня зовут Павел, также известный под ником Mikinich. Я занимаюсь написанием Промптов для нейросетей для генерации изображений.</p>
+                        <p>Создать изображение с помощью нейросети может каждый, но только некоторые могут превратить пару строк запроса в шедевр. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AI Artist Mikinich. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://vk.com/Nuoveri" target="_blank">VK</a>
+               
+            </div>
+        </div>
+    </footer>
+    <div class="background-image"></div>
+    <script src="script.js"></script>
+</body>
+</html>
